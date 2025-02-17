@@ -31,7 +31,7 @@ int main()
 	std::cout << a.abs() << '\n';
 	a = b;
 	a[0] = 12;
-	std::cout << a << b; //Хехе, скопировал.
+	std::cout << a << b; // :), скопировал.
 	std::cout << (a==b) << " " << (a != b);
 	return 0;
 }
